@@ -21,7 +21,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/sony/poplar/aosp_g8341.mk)
 
-PRODUCT_NAME := aosp_g8342
+PRODUCT_NAME := rr_g8342
 PRODUCT_DEVICE := poplar
 PRODUCT_MODEL := Xperia XZ1 Dual (AOSP)
 PRODUCT_BRAND := Sony
