@@ -19,7 +19,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.default_network=9,1
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, device/sony/poplar/aosp_g8341.mk)
+$(call inherit-product, device/sony/poplar/rr_g8341.mk)
 
 PRODUCT_NAME := rr_g8342
 PRODUCT_DEVICE := poplar
