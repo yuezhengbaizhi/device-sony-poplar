@@ -14,7 +14,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo rr_g8341-eng
-add_lunch_combo rr_g8341-userdebug
-add_lunch_combo rr_g8342-eng
-add_lunch_combo rr_g8342-userdebug
+add_lunch_combo rr_poplar-eng
+add_lunch_combo rr_poplar-userdebug
