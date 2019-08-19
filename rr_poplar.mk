@@ -26,7 +26,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit RR os vendor 
-$(call inherit-product, vendor/RR/config/common_full_phone.mk)
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 PRODUCT_NAME := rr_poplar
 PRODUCT_DEVICE := poplar
