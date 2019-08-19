@@ -30,6 +30,6 @@ $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 PRODUCT_NAME := rr_poplar
 PRODUCT_DEVICE := poplar
-PRODUCT_MODEL := Xperia XZ1 Dual (AOSP Trees)
+PRODUCT_MODEL := Xperia XZ1 Dual
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
