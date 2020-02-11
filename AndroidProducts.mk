@@ -14,3 +14,9 @@
 
 PRODUCT_MAKEFILES := $(LOCAL_DIR)/rr_poplar.mk
 
+COMMON_LUNCH_CHOICES += \
+    aosp_g8341-eng \
+    aosp_g8341-userdebug \
+    aosp_g8342-eng \
+    aosp_g8342-userdebug
+
