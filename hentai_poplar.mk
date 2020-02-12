@@ -25,10 +25,10 @@ $(call inherit-product, device/sony/poplar/device.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Inherit RR os vendor 
-$(call inherit-product, vendor/rr/config/common_full_phone.mk)
+# Inherit Hentai os vendor 
+$(call inherit-product, vendor/hentai/config/common_full_phone.mk)
 
-PRODUCT_NAME := rr_poplar
+PRODUCT_NAME := hentai_poplar
 PRODUCT_DEVICE := poplar
 PRODUCT_MODEL := Xperia XZ1 Dual
 PRODUCT_BRAND := Sony
