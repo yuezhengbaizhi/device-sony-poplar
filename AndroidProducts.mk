@@ -12,11 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/rr_poplar.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/hentai_poplar.mk
 
 COMMON_LUNCH_CHOICES += \
-    aosp_g8341-eng \
-    aosp_g8341-userdebug \
-    aosp_g8342-eng \
-    aosp_g8342-userdebug
+    hentai_g8341-eng \
+    hentai_g8341-userdebug \
+    hentai_g8342-eng \
+    hentai_g8342-userdebug
 
