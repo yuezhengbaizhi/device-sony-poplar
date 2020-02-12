@@ -14,5 +14,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo rr_poplar-eng
-add_lunch_combo rr_poplar-userdebug
+add_lunch_combo hentai_poplar-eng
+add_lunch_combo hentai_poplar-userdebug
