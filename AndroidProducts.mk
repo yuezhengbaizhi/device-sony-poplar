@@ -15,8 +15,6 @@
 PRODUCT_MAKEFILES := $(LOCAL_DIR)/hentai_poplar.mk
 
 COMMON_LUNCH_CHOICES += \
-    hentai_g8341-eng \
-    hentai_g8341-userdebug \
     hentai_g8342-eng \
     hentai_g8342-userdebug \
     hentai_g8342-user \
