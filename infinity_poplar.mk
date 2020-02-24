@@ -28,6 +28,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit Hentai os vendor 
 $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
+# Inherit common Android Go configurations
+$(call inherit-product, build/target/product/go_defaults.mk)
+
 PRODUCT_NAME := infinity_poplar
 PRODUCT_DEVICE := poplar
 PRODUCT_MODEL := Xperia XZ1 Dual
