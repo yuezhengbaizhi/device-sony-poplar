@@ -31,8 +31,13 @@ $(call inherit-product, vendor/hentai/config/common_telephony.mk)
 # Inherit common Android Go configurations
 $(call inherit-product, build/target/product/go_defaults.mk)
 
+# Config Gapps
+TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDE_WIFI_EXT := true
+
 PRODUCT_NAME := hentai_poplar_go
 PRODUCT_DEVICE := poplar
 PRODUCT_MODEL := Xperia XZ1 Dual
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
+
