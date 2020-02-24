@@ -12,10 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/hentai_poplar.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/hentai_poplar.mk \
+                     $(LOCAL_DIR)/hentai_poplar_go.mk
 
 COMMON_LUNCH_CHOICES += \
     hentai_poplar-eng \
     hentai_poplar-userdebug \
     hentai_poplar-user \
-
+    hentai_poplar_go-eng \
+    hentai_poplar_go-userdebug \
+    hentai_poplar_go-user \
