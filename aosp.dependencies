@@ -1,8 +1,0 @@
-[
-  {
-    "remote":       "baizhi",
-    "repository":   "device_sony_customization",
-    "target_path":  "device/sony/customization",
-    "branch":       "queenslave"
-  }
-]
